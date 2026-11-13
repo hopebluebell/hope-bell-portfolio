@@ -74,9 +74,6 @@
 .zoom-image,.zoom-image img{border-radius:18px}
 .screen-stage{border-radius:26px;overflow:hidden}
 .lightbox>img{border-radius:14px}
-.project-card .card-desc,.case-hero .project-summary{background:var(--bubble);color:var(--ink);border:1px solid var(--bubble-line);border-radius:22px 22px 22px 6px;padding:18px 20px;margin-top:18px;line-height:1.55}
-.case-hero .case-hero-grid>div>.project-summary{margin-top:32px;padding:22px 24px}
-.description-label{display:block;font:700 11px/1.4 Arial,Helvetica,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
 .footer{background:var(--footer);color:var(--on-footer)}
 [data-theme="dark"] .glow{background:linear-gradient(118deg,#783d27 0%,#783d27 28%,#633246 67%,#42305e 100%)}
 [data-theme="dark"] .glow-soft{background:linear-gradient(110deg,#563224 0%,#563224 32%,#4b2e41 70%,#382a50 100%)}
@@ -106,6 +103,12 @@ html{scroll-padding-top:180px}
 .site-header .status{grid-column:1/-1;grid-row:3;justify-self:start;font-size:12px;min-height:32px;padding:6px 11px;margin:3px 0 4px}
 .project-card>img{border-radius:18px}
 .screen-stage{border-radius:20px}
-.project-card .card-desc{padding:16px 18px}
-.case-hero .case-hero-grid>div>.project-summary{padding:18px 20px;margin-top:25px}
 }
+
+/* The wrapper paints behind the existing text without changing its geometry. */
+.project-description{position:relative;isolation:isolate}
+.project-description::before{content:"";position:absolute;inset:-8px -12px;z-index:-1;border-radius:18px;background:linear-gradient(115deg,#ffd5ae,#eed5ee 65%,#dacafa)}
+.case-description{margin-top:50px}
+.case-hero .case-description>p{margin-top:0}
+[data-theme="dark"] .project-description::before{background:linear-gradient(115deg,#57372e,#493047 65%,#393050)}
+@media(max-width:700px){.case-description{margin-top:30px}}
