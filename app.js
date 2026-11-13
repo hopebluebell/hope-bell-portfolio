@@ -1,9 +1,16 @@
 'use strict';
 const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+const revealSelector = '[data-reveal], .hero-frame, .scroll-cue, .index-hero .split, .about-strip .split, .case-hero-grid, .brief > div, .case-contents, .section-heading, .screen-stage, .outcome > div, .case-next, .about-hero h1, .about-hero > p, .skills > h2, .skills li, .skills-bottom, .contact-hero > h1, .contact-grid, .contact-behance, .footer-grid, .footer-bottom';
+const candidates = Array.from(document.querySelectorAll(revealSelector));
+// Animate a group once rather than moving both it and its children.
+const blocks = candidates.filter(block => !candidates.some(parent => parent !== block && parent.contains(block)));
+blocks.forEach((block, index) => {
+  block.setAttribute('data-reveal', '');
+  block.style.setProperty('--reveal-delay', `${(index % 3) * 55}ms`);
+});
 let observer;
 function reveal() {
-  observer?.disconnect();
-  const blocks = document.querySelectorAll('[data-reveal]');
+  if (observer) observer.disconnect();
   blocks.forEach(block => block.classList.remove('will-reveal', 'is-visible'));
   if (preference.matches || !('IntersectionObserver' in window)) return;
   observer = new IntersectionObserver(entries => {
@@ -13,11 +20,16 @@ function reveal() {
         observer.unobserve(entry.target);
       }
     });
-  }, { rootMargin: '0px 0px -20px 0px', threshold: 0 });
+  }, { rootMargin: '0px 0px -16px 0px', threshold: 0 });
   blocks.forEach(block => { block.classList.add('will-reveal'); observer.observe(block); });
 }
 reveal();
-preference.addEventListener('change', reveal);
+if (preference.addEventListener) preference.addEventListener('change', reveal);
+else if (preference.addListener) preference.addListener(reveal);
+document.addEventListener('focusin', event => {
+  const block = event.target.closest('[data-reveal]');
+  if (block) block.classList.add('is-visible');
+});
 const dialog = document.querySelector('.lightbox');
 let opener;
 if (dialog && typeof dialog.showModal === 'function') {
