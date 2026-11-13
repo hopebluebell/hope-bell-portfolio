@@ -105,3 +105,15 @@ html{scroll-padding-top:180px}
 }
 
 @media(max-width:1050px){.site-header .status{display:none}}
+
+/* Hover lifts the content while keeping each card's hit area stable. */
+@media (prefers-reduced-motion:no-preference) and (hover:hover){
+.project-card>img,.project-card>.card-title,.project-card>.eyebrow,.project-card>.card-desc{transition:transform 280ms cubic-bezier(.2,.7,.2,1),filter 350ms ease}
+.project-card:hover>img,.project-card:hover>.card-title,.project-card:hover>.eyebrow,.project-card:hover>.card-desc,.project-card:focus-visible>img,.project-card:focus-visible>.card-title,.project-card:focus-visible>.eyebrow,.project-card:focus-visible>.card-desc{transform:translateY(-10px)}
+.skills li{transition:background-color 250ms ease}
+.skills .skill-label,.skills li::before{transition:transform 260ms cubic-bezier(.2,.7,.2,1)}
+.skills li:hover .skill-label{transform:translate(8px,-4px)}
+.skills li:hover::before{transform:translateY(-4px)}
+.skills li:hover{background-color:rgba(17,16,14,.045)}
+[data-theme="dark"] .skills li:hover{background-color:rgba(251,243,233,.065)}
+}

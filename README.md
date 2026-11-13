@@ -102,3 +102,5 @@ GitHub Pages: ветка `main`, папка `/ (root)`. Файл `.nojekyll` о�
 Переключение проверено в Safari и Chrome; сохранение после перехода и перезагрузки проверено в Safari, включая ширины 320 и 768 px. Отдельно проверены старт по системной теме, приоритет сохранённой темы и работа кнопки при недоступном хранилище.
 
 Описания проектов возвращены к оформлению макета: без подложек.
+
+Hover: project cards lift by 10 px; skill rows use a subtle text lift and highlight. Motion is limited to hover-capable devices and respects reduced-motion preferences.

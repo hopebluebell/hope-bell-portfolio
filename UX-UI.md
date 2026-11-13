@@ -34,3 +34,5 @@
 - Светлая/тёмная тема переключается в хедере, учитывает системную настройку при первом визите и запоминает ручной выбор.
 
 Описания проектов возвращены к оформлению макета: без подложек.
+
+Hover: project cards lift by 10 px; skill rows use a subtle text lift and highlight. Motion is limited to hover-capable devices and respects reduced-motion preferences.
