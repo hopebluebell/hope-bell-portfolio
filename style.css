@@ -119,3 +119,10 @@ html{scroll-padding-top:180px}
 .skills li:hover{background-color:rgba(17,16,14,.045)}
 [data-theme="dark"] .skills li:hover{background-color:rgba(251,243,233,.065)}
 }
+
+/* Footer contact underline reveals without shifting the layout. */
+.footer .telegram{position:relative;text-decoration:none;padding-bottom:5px}
+.footer .telegram::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 240ms ease}
+@media(hover:hover){.footer .telegram:hover::after{transform:scaleX(1)}}
+.footer .telegram:focus-visible::after{transform:scaleX(1)}
+@media(prefers-reduced-motion:reduce){.footer .telegram::after{transition:none}}
