@@ -104,3 +104,5 @@ GitHub Pages: ветка `main`, папка `/ (root)`. Файл `.nojekyll` о�
 Описания проектов возвращены к оформлению макета: без подложек.
 
 Hover: project cards lift by 10 px; skill rows use a subtle text lift and highlight. Motion is limited to hover-capable devices and respects reduced-motion preferences.
+
+Browser consistency: contact and inner-page gradients share one CSS variable in each theme, including a fallback selector for older contact markup. Internal page links and CSS/JS URLs carry the release version so navigation from the current site avoids older cached HTML. GitHub Pages controls HTTP caching; an already open older page may need one reload. Verified in Safari and Chrome on macOS.
