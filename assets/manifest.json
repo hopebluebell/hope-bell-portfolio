@@ -1,0 +1,713 @@
+{
+  "after-cover": {
+    "originalBytes": 293527,
+    "variants": [
+      {
+        "src": "after-cover-480.webp",
+        "width": 480,
+        "height": 367,
+        "bytes": 16830
+      },
+      {
+        "src": "after-cover-960.webp",
+        "width": 960,
+        "height": 733,
+        "bytes": 46876
+      },
+      {
+        "src": "after-cover-1600.webp",
+        "width": 1600,
+        "height": 1222,
+        "bytes": 93382
+      }
+    ]
+  },
+  "after-event-phone": {
+    "originalBytes": 379346,
+    "variants": [
+      {
+        "src": "after-event-phone-480.webp",
+        "width": 480,
+        "height": 956,
+        "bytes": 30440
+      },
+      {
+        "src": "after-event-phone-960.webp",
+        "width": 960,
+        "height": 1911,
+        "bytes": 73958
+      },
+      {
+        "src": "after-event-phone-1120.webp",
+        "width": 1120,
+        "height": 2230,
+        "bytes": 91636
+      }
+    ]
+  },
+  "after-home-phone": {
+    "originalBytes": 444275,
+    "variants": [
+      {
+        "src": "after-home-phone-480.webp",
+        "width": 480,
+        "height": 964,
+        "bytes": 41672
+      },
+      {
+        "src": "after-home-phone-960.webp",
+        "width": 960,
+        "height": 1929,
+        "bytes": 101796
+      },
+      {
+        "src": "after-home-phone-1120.webp",
+        "width": 1120,
+        "height": 2250,
+        "bytes": 125798
+      }
+    ]
+  },
+  "after-map-phone": {
+    "originalBytes": 445613,
+    "variants": [
+      {
+        "src": "after-map-phone-480.webp",
+        "width": 480,
+        "height": 964,
+        "bytes": 39042
+      },
+      {
+        "src": "after-map-phone-960.webp",
+        "width": 960,
+        "height": 1929,
+        "bytes": 95242
+      },
+      {
+        "src": "after-map-phone-1120.webp",
+        "width": 1120,
+        "height": 2250,
+        "bytes": 117264
+      }
+    ]
+  },
+  "after-plan-phone": {
+    "originalBytes": 310777,
+    "variants": [
+      {
+        "src": "after-plan-phone-480.webp",
+        "width": 480,
+        "height": 938,
+        "bytes": 29888
+      },
+      {
+        "src": "after-plan-phone-960.webp",
+        "width": 960,
+        "height": 1875,
+        "bytes": 70918
+      },
+      {
+        "src": "after-plan-phone-1070.webp",
+        "width": 1070,
+        "height": 2090,
+        "bytes": 81298
+      }
+    ]
+  },
+  "after-profile-phone": {
+    "originalBytes": 226391,
+    "variants": [
+      {
+        "src": "after-profile-phone-480.webp",
+        "width": 480,
+        "height": 915,
+        "bytes": 23914
+      },
+      {
+        "src": "after-profile-phone-960.webp",
+        "width": 960,
+        "height": 1830,
+        "bytes": 57462
+      }
+    ]
+  },
+  "after-route-phone": {
+    "originalBytes": 369306,
+    "variants": [
+      {
+        "src": "after-route-phone-480.webp",
+        "width": 480,
+        "height": 910,
+        "bytes": 32636
+      },
+      {
+        "src": "after-route-phone-960.webp",
+        "width": 960,
+        "height": 1819,
+        "bytes": 83122
+      },
+      {
+        "src": "after-route-phone-1050.webp",
+        "width": 1050,
+        "height": 1990,
+        "bytes": 94216
+      }
+    ]
+  },
+  "after-saved-phone": {
+    "originalBytes": 264991,
+    "variants": [
+      {
+        "src": "after-saved-phone-480.webp",
+        "width": 480,
+        "height": 915,
+        "bytes": 29340
+      },
+      {
+        "src": "after-saved-phone-960.webp",
+        "width": 960,
+        "height": 1830,
+        "bytes": 70864
+      }
+    ]
+  },
+  "after-steps-phones": {
+    "originalBytes": 342908,
+    "variants": [
+      {
+        "src": "after-steps-phones-480.webp",
+        "width": 480,
+        "height": 440,
+        "bytes": 22836
+      },
+      {
+        "src": "after-steps-phones-960.webp",
+        "width": 960,
+        "height": 880,
+        "bytes": 59730
+      },
+      {
+        "src": "after-steps-phones-1600.webp",
+        "width": 1600,
+        "height": 1467,
+        "bytes": 110580
+      }
+    ]
+  },
+  "after-ticket-phone": {
+    "originalBytes": 285302,
+    "variants": [
+      {
+        "src": "after-ticket-phone-480.webp",
+        "width": 480,
+        "height": 915,
+        "bytes": 29304
+      },
+      {
+        "src": "after-ticket-phone-960.webp",
+        "width": 960,
+        "height": 1830,
+        "bytes": 68928
+      }
+    ]
+  },
+  "frame-collection-phone": {
+    "originalBytes": 565890,
+    "variants": [
+      {
+        "src": "frame-collection-phone-480.webp",
+        "width": 480,
+        "height": 1011,
+        "bytes": 36082
+      },
+      {
+        "src": "frame-collection-phone-960.webp",
+        "width": 960,
+        "height": 2022,
+        "bytes": 98958
+      },
+      {
+        "src": "frame-collection-phone-1130.webp",
+        "width": 1130,
+        "height": 2380,
+        "bytes": 128954
+      }
+    ]
+  },
+  "frame-collections-phone": {
+    "originalBytes": 527550,
+    "variants": [
+      {
+        "src": "frame-collections-phone-480.webp",
+        "width": 480,
+        "height": 1030,
+        "bytes": 34298
+      },
+      {
+        "src": "frame-collections-phone-960.webp",
+        "width": 960,
+        "height": 2060,
+        "bytes": 90160
+      },
+      {
+        "src": "frame-collections-phone-1100.webp",
+        "width": 1100,
+        "height": 2360,
+        "bytes": 109836
+      }
+    ]
+  },
+  "frame-cover": {
+    "originalBytes": 430852,
+    "variants": [
+      {
+        "src": "frame-cover-480.webp",
+        "width": 480,
+        "height": 370,
+        "bytes": 23188
+      },
+      {
+        "src": "frame-cover-960.webp",
+        "width": 960,
+        "height": 740,
+        "bytes": 60764
+      },
+      {
+        "src": "frame-cover-1600.webp",
+        "width": 1600,
+        "height": 1233,
+        "bytes": 114736
+      }
+    ]
+  },
+  "frame-discover-phone": {
+    "originalBytes": 564313,
+    "variants": [
+      {
+        "src": "frame-discover-phone-480.webp",
+        "width": 480,
+        "height": 985,
+        "bytes": 32658
+      },
+      {
+        "src": "frame-discover-phone-960.webp",
+        "width": 960,
+        "height": 1971,
+        "bytes": 76968
+      },
+      {
+        "src": "frame-discover-phone-1130.webp",
+        "width": 1130,
+        "height": 2320,
+        "bytes": 97772
+      }
+    ]
+  },
+  "frame-film-phone": {
+    "originalBytes": 545122,
+    "variants": [
+      {
+        "src": "frame-film-phone-480.webp",
+        "width": 480,
+        "height": 1013,
+        "bytes": 34790
+      },
+      {
+        "src": "frame-film-phone-960.webp",
+        "width": 960,
+        "height": 2026,
+        "bytes": 83602
+      },
+      {
+        "src": "frame-film-phone-1090.webp",
+        "width": 1090,
+        "height": 2300,
+        "bytes": 98282
+      }
+    ]
+  },
+  "frame-profile-phone": {
+    "originalBytes": 510769,
+    "variants": [
+      {
+        "src": "frame-profile-phone-480.webp",
+        "width": 480,
+        "height": 1013,
+        "bytes": 31694
+      },
+      {
+        "src": "frame-profile-phone-960.webp",
+        "width": 960,
+        "height": 2026,
+        "bytes": 73380
+      },
+      {
+        "src": "frame-profile-phone-1090.webp",
+        "width": 1090,
+        "height": 2300,
+        "bytes": 87414
+      }
+    ]
+  },
+  "frame-result-phone": {
+    "originalBytes": 565033,
+    "variants": [
+      {
+        "src": "frame-result-phone-480.webp",
+        "width": 480,
+        "height": 993,
+        "bytes": 29832
+      },
+      {
+        "src": "frame-result-phone-960.webp",
+        "width": 960,
+        "height": 1987,
+        "bytes": 70802
+      },
+      {
+        "src": "frame-result-phone-1150.webp",
+        "width": 1150,
+        "height": 2380,
+        "bytes": 92038
+      }
+    ]
+  },
+  "frame-ticket-detail": {
+    "originalBytes": 569668,
+    "variants": [
+      {
+        "src": "frame-ticket-detail-480.webp",
+        "width": 480,
+        "height": 737,
+        "bytes": 29360
+      },
+      {
+        "src": "frame-ticket-detail-960.webp",
+        "width": 960,
+        "height": 1474,
+        "bytes": 65402
+      },
+      {
+        "src": "frame-ticket-detail-1550.webp",
+        "width": 1550,
+        "height": 2380,
+        "bytes": 117556
+      }
+    ]
+  },
+  "frame-watchlist-phone": {
+    "originalBytes": 567865,
+    "variants": [
+      {
+        "src": "frame-watchlist-phone-480.webp",
+        "width": 480,
+        "height": 1013,
+        "bytes": 36180
+      },
+      {
+        "src": "frame-watchlist-phone-960.webp",
+        "width": 960,
+        "height": 2026,
+        "bytes": 90350
+      },
+      {
+        "src": "frame-watchlist-phone-1090.webp",
+        "width": 1090,
+        "height": 2300,
+        "bytes": 109264
+      }
+    ]
+  },
+  "mindflow-cover": {
+    "originalBytes": 2402765,
+    "variants": [
+      {
+        "src": "mindflow-cover-480.webp",
+        "width": 480,
+        "height": 375,
+        "bytes": 16792
+      },
+      {
+        "src": "mindflow-cover-960.webp",
+        "width": 960,
+        "height": 751,
+        "bytes": 59364
+      },
+      {
+        "src": "mindflow-cover-1418.webp",
+        "width": 1418,
+        "height": 1109,
+        "bytes": 132994
+      }
+    ]
+  },
+  "mindflow-entry-phone": {
+    "originalBytes": 136881,
+    "variants": [
+      {
+        "src": "mindflow-entry-phone-480.webp",
+        "width": 480,
+        "height": 960,
+        "bytes": 12964
+      },
+      {
+        "src": "mindflow-entry-phone-870.webp",
+        "width": 870,
+        "height": 1740,
+        "bytes": 26306
+      }
+    ]
+  },
+  "mindflow-journal-phone": {
+    "originalBytes": 238944,
+    "variants": [
+      {
+        "src": "mindflow-journal-phone-480.webp",
+        "width": 480,
+        "height": 960,
+        "bytes": 29794
+      },
+      {
+        "src": "mindflow-journal-phone-870.webp",
+        "width": 870,
+        "height": 1740,
+        "bytes": 61820
+      }
+    ]
+  },
+  "mindflow-observation-phone": {
+    "originalBytes": 251904,
+    "variants": [
+      {
+        "src": "mindflow-observation-phone-480.webp",
+        "width": 480,
+        "height": 960,
+        "bytes": 33844
+      },
+      {
+        "src": "mindflow-observation-phone-870.webp",
+        "width": 870,
+        "height": 1740,
+        "bytes": 66676
+      }
+    ]
+  },
+  "mindflow-today-phone": {
+    "originalBytes": 230793,
+    "variants": [
+      {
+        "src": "mindflow-today-phone-480.webp",
+        "width": 480,
+        "height": 960,
+        "bytes": 28090
+      },
+      {
+        "src": "mindflow-today-phone-870.webp",
+        "width": 870,
+        "height": 1740,
+        "bytes": 57494
+      }
+    ]
+  },
+  "mindflow-you-phone": {
+    "originalBytes": 188232,
+    "variants": [
+      {
+        "src": "mindflow-you-phone-480.webp",
+        "width": 480,
+        "height": 960,
+        "bytes": 20666
+      },
+      {
+        "src": "mindflow-you-phone-870.webp",
+        "width": 870,
+        "height": 1740,
+        "bytes": 41430
+      }
+    ]
+  },
+  "unfold-about-screen": {
+    "originalBytes": 449157,
+    "variants": [
+      {
+        "src": "unfold-about-screen-480.webp",
+        "width": 480,
+        "height": 603,
+        "bytes": 27936
+      },
+      {
+        "src": "unfold-about-screen-960.webp",
+        "width": 960,
+        "height": 1207,
+        "bytes": 70814
+      },
+      {
+        "src": "unfold-about-screen-1600.webp",
+        "width": 1600,
+        "height": 2011,
+        "bytes": 129768
+      }
+    ]
+  },
+  "unfold-archive-screen": {
+    "originalBytes": 565714,
+    "variants": [
+      {
+        "src": "unfold-archive-screen-480.webp",
+        "width": 480,
+        "height": 569,
+        "bytes": 32400
+      },
+      {
+        "src": "unfold-archive-screen-960.webp",
+        "width": 960,
+        "height": 1139,
+        "bytes": 93572
+      },
+      {
+        "src": "unfold-archive-screen-1600.webp",
+        "width": 1600,
+        "height": 1898,
+        "bytes": 194638
+      }
+    ]
+  },
+  "unfold-artists-screen": {
+    "originalBytes": 504287,
+    "variants": [
+      {
+        "src": "unfold-artists-screen-480.webp",
+        "width": 480,
+        "height": 566,
+        "bytes": 26380
+      },
+      {
+        "src": "unfold-artists-screen-960.webp",
+        "width": 960,
+        "height": 1131,
+        "bytes": 74540
+      },
+      {
+        "src": "unfold-artists-screen-1600.webp",
+        "width": 1600,
+        "height": 1885,
+        "bytes": 160658
+      }
+    ]
+  },
+  "unfold-collection-screen": {
+    "originalBytes": 361245,
+    "variants": [
+      {
+        "src": "unfold-collection-screen-480.webp",
+        "width": 480,
+        "height": 485,
+        "bytes": 19860
+      },
+      {
+        "src": "unfold-collection-screen-960.webp",
+        "width": 960,
+        "height": 970,
+        "bytes": 49886
+      },
+      {
+        "src": "unfold-collection-screen-1600.webp",
+        "width": 1600,
+        "height": 1616,
+        "bytes": 96956
+      }
+    ]
+  },
+  "unfold-cover": {
+    "originalBytes": 361147,
+    "variants": [
+      {
+        "src": "unfold-cover-480.webp",
+        "width": 480,
+        "height": 343,
+        "bytes": 20940
+      },
+      {
+        "src": "unfold-cover-960.webp",
+        "width": 960,
+        "height": 685,
+        "bytes": 58284
+      },
+      {
+        "src": "unfold-cover-1600.webp",
+        "width": 1600,
+        "height": 1142,
+        "bytes": 122958
+      }
+    ]
+  },
+  "unfold-exhibition-screen": {
+    "originalBytes": 331314,
+    "variants": [
+      {
+        "src": "unfold-exhibition-screen-480.webp",
+        "width": 480,
+        "height": 671,
+        "bytes": 33670
+      },
+      {
+        "src": "unfold-exhibition-screen-960.webp",
+        "width": 960,
+        "height": 1342,
+        "bytes": 82858
+      },
+      {
+        "src": "unfold-exhibition-screen-1080.webp",
+        "width": 1080,
+        "height": 1510,
+        "bytes": 97152
+      }
+    ]
+  },
+  "unfold-exhibitions-screen": {
+    "originalBytes": 317320,
+    "variants": [
+      {
+        "src": "unfold-exhibitions-screen-480.webp",
+        "width": 480,
+        "height": 578,
+        "bytes": 34072
+      },
+      {
+        "src": "unfold-exhibitions-screen-960.webp",
+        "width": 960,
+        "height": 1156,
+        "bytes": 93648
+      },
+      {
+        "src": "unfold-exhibitions-screen-1080.webp",
+        "width": 1080,
+        "height": 1300,
+        "bytes": 111750
+      }
+    ]
+  },
+  "unfold-work-screen": {
+    "originalBytes": 493860,
+    "variants": [
+      {
+        "src": "unfold-work-screen-480.webp",
+        "width": 480,
+        "height": 592,
+        "bytes": 28468
+      },
+      {
+        "src": "unfold-work-screen-960.webp",
+        "width": 960,
+        "height": 1184,
+        "bytes": 73698
+      },
+      {
+        "src": "unfold-work-screen-1600.webp",
+        "width": 1600,
+        "height": 1974,
+        "bytes": 140696
+      }
+    ]
+  }
+}
