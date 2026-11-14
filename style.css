@@ -151,3 +151,10 @@ body[data-page="contact"] main{background-color:var(--paper);background-image:ra
 body[data-page="404"] main{background-color:var(--paper);background-image:radial-gradient(ellipse 37.50000% calc(380px * var(--circle-scale)) at 69.44444% calc(780px * var(--circle-scale)),rgba(168,151,233,0.6) 0%,rgba(168,151,233,0.33) 45%,rgba(168,151,233,0) 100%),radial-gradient(ellipse 34.72222% calc(410px * var(--circle-scale)) at 87.50000% calc(220px * var(--circle-scale)),rgba(242,143,185,0.7) 0%,rgba(242,143,185,0.385) 45%,rgba(242,143,185,0) 100%),radial-gradient(ellipse 43.05556% calc(460px * var(--circle-scale)) at 11.80556% calc(290px * var(--circle-scale)),rgba(255,120,67,0.7) 0%,rgba(255,120,67,0.385) 45%,rgba(255,120,67,0) 100%)}
 [data-theme="dark"] body[data-page="404"] main{background-color:var(--paper);background-image:radial-gradient(ellipse 37.50000% calc(380px * var(--circle-scale)) at 69.44444% calc(780px * var(--circle-scale)),rgba(168,151,233,0.39) 0%,rgba(168,151,233,0.2145) 45%,rgba(168,151,233,0) 100%),radial-gradient(ellipse 34.72222% calc(410px * var(--circle-scale)) at 87.50000% calc(220px * var(--circle-scale)),rgba(242,143,185,0.455) 0%,rgba(242,143,185,0.25025) 45%,rgba(242,143,185,0) 100%),radial-gradient(ellipse 43.05556% calc(460px * var(--circle-scale)) at 11.80556% calc(290px * var(--circle-scale)),rgba(255,120,67,0.455) 0%,rgba(255,120,67,0.25025) 45%,rgba(255,120,67,0) 100%)}
 @media(max-width:700px){:root{--circle-scale:.7}}
+
+/* Case back-link follows the same underline motion as other navigation. */
+.case-next>a:first-child{position:relative;display:inline-block;text-decoration:none}
+.case-next>a:first-child::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 240ms ease}
+@media(hover:hover){.case-next>a:first-child:hover::after{transform:scaleX(1)}}
+.case-next>a:first-child:focus-visible::after{transform:scaleX(1)}
+@media(prefers-reduced-motion:reduce){.case-next>a:first-child::after{transition:none}}
