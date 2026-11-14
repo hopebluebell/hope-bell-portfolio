@@ -1,6 +1,6 @@
-# Hope Bell — UX/UI-портфолио
+# nadia. — UX/UI-портфолио
 
-Русскоязычный сайт-портфолио дизайнера Nadia / Hope Bell. Восемь страниц с учебными проектами AFTER, UNFOLD, FRAME и MindFlow, описанием задач, сценариев и визуальных решений.
+Русскоязычный сайт-портфолио дизайнера nadia.. Восемь страниц с учебными проектами AFTER, UNFOLD, FRAME и MindFlow, описанием задач, сценариев и визуальных решений.
 
 [Открыть сайт](https://hopebluebell.github.io/hope-bell-portfolio/) · [Behance](https://www.behance.net/hopebell2) · [Telegram](https://t.me/hopesanxiety)
 
@@ -84,7 +84,7 @@ GitHub Pages: ветка `main`, папка `/ (root)`. Файл `.nojekyll` о�
 
 ## Авторство и материалы
 
-Дизайн и учебные проекты — Hope Bell. Тексты описывают концепции, представленные автором.
+Дизайн и учебные проекты — nadia.. Тексты описывают концепции, представленные автором.
 
 Изображения произведений искусства и кино принадлежат соответствующим правообладателям. В презентации UNFOLD указаны Pierre Châtel-Innocenti, Samuel Zeller, Fons Heijnsbroek и Pawel Czerwinski; источники — Unsplash / Wikimedia Commons. Репозиторий не предоставляет лицензию на сторонние изображения.
 
