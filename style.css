@@ -197,3 +197,9 @@ a:focus-visible .link-arrow{transform:translateX(var(--arrow-shift))}
 :is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):focus-visible{transform:translateY(-4px)}
 :is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):active{transform:translateY(-2px)}
 @media(prefers-reduced-motion:reduce){.link-arrow,:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]){transition:none}a:hover .link-arrow,a:focus-visible .link-arrow,:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):hover,:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):focus-visible,:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):active{transform:none}}
+
+/* Give the main project CTA a clearly visible hover lift. */
+@media(hover:hover){.home-hero .pill[href="#selected"]:hover{transform:translateY(-8px)}}
+.home-hero .pill[href="#selected"]:focus-visible{transform:translateY(-8px)}
+.home-hero .pill[href="#selected"]:active{transform:translateY(-3px)}
+@media(prefers-reduced-motion:reduce){.home-hero .pill[href="#selected"]:hover,.home-hero .pill[href="#selected"]:focus-visible,.home-hero .pill[href="#selected"]:active{transform:none}}
