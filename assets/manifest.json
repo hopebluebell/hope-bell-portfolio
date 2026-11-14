@@ -551,186 +551,263 @@
     ]
   },
   "unfold-about-screen": {
-    "originalBytes": 449157,
+    "originalBytes": 3224067,
     "variants": [
       {
-        "src": "unfold-about-screen-480.webp",
+        "src": "unfold-about-screen-r2-480.webp",
         "width": 480,
-        "height": 603,
-        "bytes": 27936
+        "height": 613,
+        "bytes": 33786
       },
       {
-        "src": "unfold-about-screen-960.webp",
+        "src": "unfold-about-screen-r2-960.webp",
         "width": 960,
-        "height": 1207,
-        "bytes": 70814
+        "height": 1226,
+        "bytes": 87302
       },
       {
-        "src": "unfold-about-screen-1600.webp",
+        "src": "unfold-about-screen-r2-1600.webp",
         "width": 1600,
-        "height": 2011,
-        "bytes": 129768
+        "height": 2044,
+        "bytes": 164116
+      },
+      {
+        "src": "unfold-about-screen-r2-2560.webp",
+        "width": 2560,
+        "height": 3270,
+        "bytes": 288230
       }
     ]
   },
   "unfold-archive-screen": {
-    "originalBytes": 565714,
+    "originalBytes": 4631000,
     "variants": [
       {
-        "src": "unfold-archive-screen-480.webp",
+        "src": "unfold-archive-screen-r2-480.webp",
         "width": 480,
-        "height": 569,
-        "bytes": 32400
+        "height": 613,
+        "bytes": 35304
       },
       {
-        "src": "unfold-archive-screen-960.webp",
+        "src": "unfold-archive-screen-r2-960.webp",
         "width": 960,
-        "height": 1139,
-        "bytes": 93572
+        "height": 1226,
+        "bytes": 105318
       },
       {
-        "src": "unfold-archive-screen-1600.webp",
+        "src": "unfold-archive-screen-r2-1600.webp",
         "width": 1600,
-        "height": 1898,
-        "bytes": 194638
+        "height": 2044,
+        "bytes": 223618
+      },
+      {
+        "src": "unfold-archive-screen-r2-2560.webp",
+        "width": 2560,
+        "height": 3270,
+        "bytes": 416520
       }
     ]
   },
   "unfold-artists-screen": {
-    "originalBytes": 504287,
+    "originalBytes": 5075871,
     "variants": [
       {
-        "src": "unfold-artists-screen-480.webp",
+        "src": "unfold-artists-screen-r2-480.webp",
         "width": 480,
-        "height": 566,
-        "bytes": 26380
+        "height": 613,
+        "bytes": 31524
       },
       {
-        "src": "unfold-artists-screen-960.webp",
+        "src": "unfold-artists-screen-r2-960.webp",
         "width": 960,
-        "height": 1131,
-        "bytes": 74540
+        "height": 1226,
+        "bytes": 90392
       },
       {
-        "src": "unfold-artists-screen-1600.webp",
+        "src": "unfold-artists-screen-r2-1600.webp",
         "width": 1600,
-        "height": 1885,
-        "bytes": 160658
+        "height": 2044,
+        "bytes": 196616
+      },
+      {
+        "src": "unfold-artists-screen-r2-2560.webp",
+        "width": 2560,
+        "height": 3270,
+        "bytes": 386204
       }
     ]
   },
   "unfold-collection-screen": {
-    "originalBytes": 361245,
+    "originalBytes": 3412240,
     "variants": [
       {
-        "src": "unfold-collection-screen-480.webp",
+        "src": "unfold-collection-screen-r2-480.webp",
         "width": 480,
-        "height": 485,
-        "bytes": 19860
+        "height": 613,
+        "bytes": 23150
       },
       {
-        "src": "unfold-collection-screen-960.webp",
+        "src": "unfold-collection-screen-r2-960.webp",
         "width": 960,
-        "height": 970,
-        "bytes": 49886
+        "height": 1226,
+        "bytes": 59496
       },
       {
-        "src": "unfold-collection-screen-1600.webp",
+        "src": "unfold-collection-screen-r2-1600.webp",
         "width": 1600,
-        "height": 1616,
-        "bytes": 96956
+        "height": 2044,
+        "bytes": 115620
+      },
+      {
+        "src": "unfold-collection-screen-r2-2560.webp",
+        "width": 2560,
+        "height": 3270,
+        "bytes": 213950
       }
     ]
   },
   "unfold-cover": {
-    "originalBytes": 361147,
+    "originalBytes": 3370939,
     "variants": [
       {
-        "src": "unfold-cover-480.webp",
+        "src": "unfold-cover-r2-480.webp",
         "width": 480,
-        "height": 343,
-        "bytes": 20940
+        "height": 364,
+        "bytes": 24570
       },
       {
-        "src": "unfold-cover-960.webp",
+        "src": "unfold-cover-r2-960.webp",
         "width": 960,
-        "height": 685,
-        "bytes": 58284
+        "height": 728,
+        "bytes": 69838
       },
       {
-        "src": "unfold-cover-1600.webp",
+        "src": "unfold-cover-r2-1600.webp",
         "width": 1600,
-        "height": 1142,
-        "bytes": 122958
+        "height": 1213,
+        "bytes": 148738
+      },
+      {
+        "src": "unfold-cover-r2-2560.webp",
+        "width": 2560,
+        "height": 1941,
+        "bytes": 290490
       }
     ]
   },
   "unfold-exhibition-screen": {
-    "originalBytes": 331314,
+    "originalBytes": 5714659,
     "variants": [
       {
-        "src": "unfold-exhibition-screen-480.webp",
+        "src": "unfold-exhibition-screen-r2-480.webp",
         "width": 480,
-        "height": 671,
-        "bytes": 33670
+        "height": 677,
+        "bytes": 40588
       },
       {
-        "src": "unfold-exhibition-screen-960.webp",
+        "src": "unfold-exhibition-screen-r2-960.webp",
         "width": 960,
-        "height": 1342,
-        "bytes": 82858
+        "height": 1354,
+        "bytes": 101098
       },
       {
-        "src": "unfold-exhibition-screen-1080.webp",
-        "width": 1080,
-        "height": 1510,
-        "bytes": 97152
+        "src": "unfold-exhibition-screen-r2-1600.webp",
+        "width": 1600,
+        "height": 2256,
+        "bytes": 191184
+      },
+      {
+        "src": "unfold-exhibition-screen-r2-2560.webp",
+        "width": 2560,
+        "height": 3610,
+        "bytes": 339388
       }
     ]
   },
   "unfold-exhibitions-screen": {
-    "originalBytes": 317320,
+    "originalBytes": 5337920,
     "variants": [
       {
-        "src": "unfold-exhibitions-screen-480.webp",
+        "src": "unfold-exhibitions-screen-r2-480.webp",
         "width": 480,
         "height": 578,
-        "bytes": 34072
+        "bytes": 41212
       },
       {
-        "src": "unfold-exhibitions-screen-960.webp",
+        "src": "unfold-exhibitions-screen-r2-960.webp",
         "width": 960,
-        "height": 1156,
-        "bytes": 93648
+        "height": 1157,
+        "bytes": 115524
       },
       {
-        "src": "unfold-exhibitions-screen-1080.webp",
-        "width": 1080,
-        "height": 1300,
-        "bytes": 111750
+        "src": "unfold-exhibitions-screen-r2-1600.webp",
+        "width": 1600,
+        "height": 1928,
+        "bytes": 237254
+      },
+      {
+        "src": "unfold-exhibitions-screen-r2-2560.webp",
+        "width": 2560,
+        "height": 3085,
+        "bytes": 447478
       }
     ]
   },
   "unfold-work-screen": {
-    "originalBytes": 493860,
+    "originalBytes": 4686463,
     "variants": [
       {
-        "src": "unfold-work-screen-480.webp",
+        "src": "unfold-work-screen-r2-480.webp",
         "width": 480,
-        "height": 592,
-        "bytes": 28468
+        "height": 585,
+        "bytes": 31118
       },
       {
-        "src": "unfold-work-screen-960.webp",
+        "src": "unfold-work-screen-r2-960.webp",
         "width": 960,
-        "height": 1184,
-        "bytes": 73698
+        "height": 1170,
+        "bytes": 81978
       },
       {
-        "src": "unfold-work-screen-1600.webp",
+        "src": "unfold-work-screen-r2-1600.webp",
         "width": 1600,
-        "height": 1974,
-        "bytes": 140696
+        "height": 1950,
+        "bytes": 162932
+      },
+      {
+        "src": "unfold-work-screen-r2-2560.webp",
+        "width": 2560,
+        "height": 3120,
+        "bytes": 277486
+      }
+    ]
+  },
+  "unfold-home-screen": {
+    "originalBytes": 3106373,
+    "variants": [
+      {
+        "src": "unfold-home-screen-r2-480.webp",
+        "width": 480,
+        "height": 347,
+        "bytes": 23174
+      },
+      {
+        "src": "unfold-home-screen-r2-960.webp",
+        "width": 960,
+        "height": 694,
+        "bytes": 65404
+      },
+      {
+        "src": "unfold-home-screen-r2-1600.webp",
+        "width": 1600,
+        "height": 1158,
+        "bytes": 138638
+      },
+      {
+        "src": "unfold-home-screen-r2-2560.webp",
+        "width": 2560,
+        "height": 1852,
+        "bytes": 273606
       }
     ]
   }
