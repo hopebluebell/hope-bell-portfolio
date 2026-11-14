@@ -115,19 +115,25 @@
     ]
   },
   "after-profile-phone": {
-    "originalBytes": 226391,
+    "originalBytes": 955051,
     "variants": [
       {
-        "src": "after-profile-phone-480.webp",
+        "src": "after-profile-phone-r2-480.webp",
         "width": 480,
-        "height": 915,
-        "bytes": 23914
+        "height": 940,
+        "bytes": 28752
       },
       {
-        "src": "after-profile-phone-960.webp",
+        "src": "after-profile-phone-r2-960.webp",
         "width": 960,
-        "height": 1830,
-        "bytes": 57462
+        "height": 1881,
+        "bytes": 66158
+      },
+      {
+        "src": "after-profile-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2194,
+        "bytes": 79844
       }
     ]
   },
@@ -155,19 +161,25 @@
     ]
   },
   "after-saved-phone": {
-    "originalBytes": 264991,
+    "originalBytes": 1314721,
     "variants": [
       {
-        "src": "after-saved-phone-480.webp",
+        "src": "after-saved-phone-r2-480.webp",
         "width": 480,
-        "height": 915,
-        "bytes": 29340
+        "height": 939,
+        "bytes": 37706
       },
       {
-        "src": "after-saved-phone-960.webp",
+        "src": "after-saved-phone-r2-960.webp",
         "width": 960,
-        "height": 1830,
-        "bytes": 70864
+        "height": 1879,
+        "bytes": 95340
+      },
+      {
+        "src": "after-saved-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2192,
+        "bytes": 117982
       }
     ]
   },
@@ -201,19 +213,25 @@
     ]
   },
   "after-ticket-phone": {
-    "originalBytes": 285302,
+    "originalBytes": 1734458,
     "variants": [
       {
-        "src": "after-ticket-phone-480.webp",
+        "src": "after-ticket-phone-r2-480.webp",
         "width": 480,
-        "height": 915,
-        "bytes": 29304
+        "height": 940,
+        "bytes": 35582
       },
       {
-        "src": "after-ticket-phone-960.webp",
+        "src": "after-ticket-phone-r2-960.webp",
         "width": 960,
-        "height": 1830,
-        "bytes": 68928
+        "height": 1881,
+        "bytes": 82700
+      },
+      {
+        "src": "after-ticket-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2194,
+        "bytes": 101796
       }
     ]
   },
