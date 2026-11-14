@@ -236,209 +236,209 @@
     ]
   },
   "frame-collection-phone": {
-    "originalBytes": 565890,
+    "originalBytes": 1930397,
     "variants": [
       {
-        "src": "frame-collection-phone-480.webp",
+        "src": "frame-collection-phone-r2-480.webp",
         "width": 480,
-        "height": 1011,
-        "bytes": 36082
+        "height": 994,
+        "bytes": 43170
       },
       {
-        "src": "frame-collection-phone-960.webp",
+        "src": "frame-collection-phone-r2-960.webp",
         "width": 960,
-        "height": 2022,
-        "bytes": 98958
+        "height": 1989,
+        "bytes": 114240
       },
       {
-        "src": "frame-collection-phone-1130.webp",
-        "width": 1130,
-        "height": 2380,
-        "bytes": 128954
+        "src": "frame-collection-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2320,
+        "bytes": 148160
       }
     ]
   },
   "frame-collections-phone": {
-    "originalBytes": 527550,
+    "originalBytes": 1424674,
     "variants": [
       {
-        "src": "frame-collections-phone-480.webp",
+        "src": "frame-collections-phone-r2-480.webp",
         "width": 480,
-        "height": 1030,
-        "bytes": 34298
+        "height": 994,
+        "bytes": 38730
       },
       {
-        "src": "frame-collections-phone-960.webp",
+        "src": "frame-collections-phone-r2-960.webp",
         "width": 960,
-        "height": 2060,
-        "bytes": 90160
+        "height": 1989,
+        "bytes": 93386
       },
       {
-        "src": "frame-collections-phone-1100.webp",
-        "width": 1100,
-        "height": 2360,
-        "bytes": 109836
+        "src": "frame-collections-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2320,
+        "bytes": 111560
       }
     ]
   },
   "frame-cover": {
-    "originalBytes": 430852,
+    "originalBytes": 2507590,
     "variants": [
       {
-        "src": "frame-cover-480.webp",
+        "src": "frame-cover-r2-480.webp",
         "width": 480,
-        "height": 370,
-        "bytes": 23188
+        "height": 364,
+        "bytes": 27504
       },
       {
-        "src": "frame-cover-960.webp",
+        "src": "frame-cover-r2-960.webp",
         "width": 960,
-        "height": 740,
-        "bytes": 60764
+        "height": 728,
+        "bytes": 67478
       },
       {
-        "src": "frame-cover-1600.webp",
+        "src": "frame-cover-r2-1600.webp",
         "width": 1600,
-        "height": 1233,
-        "bytes": 114736
+        "height": 1213,
+        "bytes": 122356
       }
     ]
   },
   "frame-discover-phone": {
-    "originalBytes": 564313,
+    "originalBytes": 1041152,
     "variants": [
       {
-        "src": "frame-discover-phone-480.webp",
+        "src": "frame-discover-phone-r2-480.webp",
         "width": 480,
-        "height": 985,
-        "bytes": 32658
+        "height": 994,
+        "bytes": 38162
       },
       {
-        "src": "frame-discover-phone-960.webp",
+        "src": "frame-discover-phone-r2-960.webp",
         "width": 960,
-        "height": 1971,
-        "bytes": 76968
+        "height": 1989,
+        "bytes": 88564
       },
       {
-        "src": "frame-discover-phone-1130.webp",
-        "width": 1130,
+        "src": "frame-discover-phone-r2-1120.webp",
+        "width": 1120,
         "height": 2320,
-        "bytes": 97772
+        "bytes": 103466
       }
     ]
   },
   "frame-film-phone": {
-    "originalBytes": 545122,
+    "originalBytes": 1465044,
     "variants": [
       {
-        "src": "frame-film-phone-480.webp",
+        "src": "frame-film-phone-r2-480.webp",
         "width": 480,
-        "height": 1013,
-        "bytes": 34790
+        "height": 992,
+        "bytes": 43024
       },
       {
-        "src": "frame-film-phone-960.webp",
+        "src": "frame-film-phone-r2-960.webp",
         "width": 960,
-        "height": 2026,
-        "bytes": 83602
+        "height": 1984,
+        "bytes": 94250
       },
       {
-        "src": "frame-film-phone-1090.webp",
-        "width": 1090,
-        "height": 2300,
-        "bytes": 98282
+        "src": "frame-film-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2315,
+        "bytes": 106818
       }
     ]
   },
   "frame-profile-phone": {
-    "originalBytes": 510769,
+    "originalBytes": 1002865,
     "variants": [
       {
-        "src": "frame-profile-phone-480.webp",
+        "src": "frame-profile-phone-r2-480.webp",
         "width": 480,
-        "height": 1013,
-        "bytes": 31694
+        "height": 992,
+        "bytes": 36944
       },
       {
-        "src": "frame-profile-phone-960.webp",
+        "src": "frame-profile-phone-r2-960.webp",
         "width": 960,
-        "height": 2026,
-        "bytes": 73380
+        "height": 1984,
+        "bytes": 82564
       },
       {
-        "src": "frame-profile-phone-1090.webp",
-        "width": 1090,
-        "height": 2300,
-        "bytes": 87414
+        "src": "frame-profile-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2315,
+        "bytes": 92832
       }
     ]
   },
   "frame-result-phone": {
-    "originalBytes": 565033,
+    "originalBytes": 1185393,
     "variants": [
       {
-        "src": "frame-result-phone-480.webp",
+        "src": "frame-result-phone-r2-480.webp",
         "width": 480,
-        "height": 993,
-        "bytes": 29832
+        "height": 994,
+        "bytes": 36280
       },
       {
-        "src": "frame-result-phone-960.webp",
+        "src": "frame-result-phone-r2-960.webp",
         "width": 960,
-        "height": 1987,
-        "bytes": 70802
+        "height": 1989,
+        "bytes": 80922
       },
       {
-        "src": "frame-result-phone-1150.webp",
-        "width": 1150,
-        "height": 2380,
-        "bytes": 92038
+        "src": "frame-result-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2320,
+        "bytes": 92288
       }
     ]
   },
   "frame-ticket-detail": {
-    "originalBytes": 569668,
+    "originalBytes": 2956679,
     "variants": [
       {
-        "src": "frame-ticket-detail-480.webp",
+        "src": "frame-ticket-detail-r2-480.webp",
         "width": 480,
-        "height": 737,
-        "bytes": 29360
+        "height": 711,
+        "bytes": 31000
       },
       {
-        "src": "frame-ticket-detail-960.webp",
+        "src": "frame-ticket-detail-r2-960.webp",
         "width": 960,
-        "height": 1474,
-        "bytes": 65402
+        "height": 1423,
+        "bytes": 68852
       },
       {
-        "src": "frame-ticket-detail-1550.webp",
-        "width": 1550,
-        "height": 2380,
-        "bytes": 117556
+        "src": "frame-ticket-detail-r2-1600.webp",
+        "width": 1600,
+        "height": 2371,
+        "bytes": 127498
       }
     ]
   },
   "frame-watchlist-phone": {
-    "originalBytes": 567865,
+    "originalBytes": 1421595,
     "variants": [
       {
-        "src": "frame-watchlist-phone-480.webp",
+        "src": "frame-watchlist-phone-r2-480.webp",
         "width": 480,
-        "height": 1013,
-        "bytes": 36180
+        "height": 992,
+        "bytes": 44064
       },
       {
-        "src": "frame-watchlist-phone-960.webp",
+        "src": "frame-watchlist-phone-r2-960.webp",
         "width": 960,
-        "height": 2026,
-        "bytes": 90350
+        "height": 1984,
+        "bytes": 108386
       },
       {
-        "src": "frame-watchlist-phone-1090.webp",
-        "width": 1090,
-        "height": 2300,
-        "bytes": 109264
+        "src": "frame-watchlist-phone-r2-1120.webp",
+        "width": 1120,
+        "height": 2315,
+        "bytes": 133174
       }
     ]
   },
