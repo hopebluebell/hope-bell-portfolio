@@ -172,25 +172,31 @@
     ]
   },
   "after-steps-phones": {
-    "originalBytes": 1507075,
+    "originalBytes": 1251268,
     "variants": [
       {
-        "src": "after-steps-phones-r2-480.webp",
+        "src": "after-steps-phones-r3-480.webp",
         "width": 480,
         "height": 394,
-        "bytes": 21100
+        "bytes": 17870
       },
       {
-        "src": "after-steps-phones-r2-960.webp",
+        "src": "after-steps-phones-r3-960.webp",
         "width": 960,
-        "height": 787,
-        "bytes": 52428
+        "height": 788,
+        "bytes": 48154
       },
       {
-        "src": "after-steps-phones-r2-1600.webp",
+        "src": "after-steps-phones-r3-1600.webp",
         "width": 1600,
         "height": 1312,
-        "bytes": 91810
+        "bytes": 94396
+      },
+      {
+        "src": "after-steps-phones-r3-2560.webp",
+        "width": 2560,
+        "height": 2100,
+        "bytes": 171204
       }
     ]
   },
