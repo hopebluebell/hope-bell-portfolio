@@ -2,10 +2,15 @@
 (function () {
   'use strict';
   var root = document.documentElement;
-  var system = window.matchMedia('(prefers-color-scheme: dark)');
   var saved = null;
   try { saved = localStorage.getItem('hope-bell-theme'); } catch (error) { /* Storage may be unavailable. */ }
   function valid(value) { return value === 'dark' || value === 'light'; }
+  // A shareable theme link takes priority over an earlier saved choice.
+  var requested = new URLSearchParams(window.location.search).get('theme');
+  if (valid(requested)) {
+    saved = requested;
+    try { localStorage.setItem('hope-bell-theme', saved); } catch (error) { /* Use the requested theme even without storage. */ }
+  }
   function apply(theme) {
     root.setAttribute('data-theme', theme);
     root.style.colorScheme = theme;
@@ -18,7 +23,7 @@
       button.title = label;
     });
   }
-  function initial() { return valid(saved) ? saved : (system.matches ? 'dark' : 'light'); }
+  function initial() { return valid(saved) ? saved : 'light'; }
   apply(initial());
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.theme-toggle').forEach(function (button) {
@@ -31,9 +36,6 @@
     });
     apply(initial());
   });
-  function systemChanged() { if (!valid(saved)) apply(initial()); }
-  if (system.addEventListener) system.addEventListener('change', systemChanged);
-  else if (system.addListener) system.addListener(systemChanged);
   window.addEventListener('storage', function (event) {
     if (event.key === 'hope-bell-theme' || event.key === null) {
       saved = event.newValue;
