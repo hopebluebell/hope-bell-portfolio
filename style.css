@@ -176,3 +176,14 @@ body[data-page="404"] main{background-color:var(--paper);background-image:radial
 @media(hover:hover){.about-strip .text-link:hover::after,.contact-behance .text-link:hover::after{transform:scaleX(1)}}
 .about-strip .text-link:focus-visible::after,.contact-behance .text-link:focus-visible::after{transform:scaleX(1)}
 @media(prefers-reduced-motion:reduce){.about-strip .text-link::after,.contact-behance .text-link::after{transition:none}}
+
+/* Observe stationary grid cells so cards can enter from beyond either viewport edge. */
+.selected{overflow:hidden}
+@supports(overflow:clip){.selected{overflow:clip}}
+.selected .project-entry{min-width:0;--entry-x:-100vw;--entry-delay:0ms}
+.selected .project-entry--right{--entry-x:100vw;--entry-delay:110ms}
+.selected .project-entry[data-reveal].will-reveal{opacity:1;transform:none;transition:none}
+.selected .project-entry.will-reveal>.project-card{opacity:0;transform:translate3d(var(--entry-x),0,0);transition:transform 1150ms cubic-bezier(.16,1,.3,1),opacity 700ms ease;transition-delay:var(--entry-delay)}
+.selected .project-entry.will-reveal.is-visible>.project-card{opacity:1;transform:none}
+@media(max-width:700px){.selected .project-entry--right{--entry-delay:0ms}}
+@media(prefers-reduced-motion:reduce){.selected .project-entry.will-reveal>.project-card{opacity:1;transform:none;transition:none}}
