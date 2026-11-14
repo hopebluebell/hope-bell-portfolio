@@ -153,8 +153,10 @@ body[data-page="404"] main{background-color:var(--paper);background-image:radial
 @media(max-width:700px){:root{--circle-scale:.7}}
 
 /* Case back-link follows the same underline motion as other navigation. */
-.case-next>a:first-child{position:relative;display:inline-block;text-decoration:none}
-.case-next>a:first-child::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 240ms ease}
-@media(hover:hover){.case-next>a:first-child:hover::after{transform:scaleX(1)}}
-.case-next>a:first-child:focus-visible::after{transform:scaleX(1)}
-@media(prefers-reduced-motion:reduce){.case-next>a:first-child::after{transition:none}}
+.case-next>a{position:relative;display:inline-block;text-decoration:none}
+.case-next>a::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 240ms ease}
+@media(hover:hover){.case-next>a:hover::after{transform:scaleX(1)}}
+.case-next>a:focus-visible::after{transform:scaleX(1)}
+@media(prefers-reduced-motion:reduce){.case-next>a::after{transition:none}}
+
+.case-next>a.text-link:hover{text-decoration:none}
