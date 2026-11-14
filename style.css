@@ -187,3 +187,13 @@ body[data-page="404"] main{background-color:var(--paper);background-image:radial
 .selected .project-entry.will-reveal.is-visible>.project-card{opacity:1;transform:none}
 @media(max-width:700px){.selected .project-entry--right{--entry-delay:0ms}}
 @media(prefers-reduced-motion:reduce){.selected .project-entry.will-reveal>.project-card{opacity:1;transform:none;transition:none}}
+
+/* Small directional cues on links, with a gentle lift for Telegram buttons. */
+.link-arrow{display:inline-block;--arrow-shift:5px;transition:transform 240ms cubic-bezier(.2,.7,.2,1)}
+.link-arrow--back{--arrow-shift:-5px}
+.pill[href="https://t.me/hopesanxiety"]{transition:transform 240ms cubic-bezier(.2,.7,.2,1),background-color 200ms ease,color 200ms ease}
+@media(hover:hover){a:hover .link-arrow{transform:translateX(var(--arrow-shift))}.pill[href="https://t.me/hopesanxiety"]:hover{transform:translateY(-4px)}}
+a:focus-visible .link-arrow{transform:translateX(var(--arrow-shift))}
+.pill[href="https://t.me/hopesanxiety"]:focus-visible{transform:translateY(-4px)}
+.pill[href="https://t.me/hopesanxiety"]:active{transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){.link-arrow,.pill[href="https://t.me/hopesanxiety"]{transition:none}a:hover .link-arrow,a:focus-visible .link-arrow,.pill[href="https://t.me/hopesanxiety"]:hover,.pill[href="https://t.me/hopesanxiety"]:focus-visible,.pill[href="https://t.me/hopesanxiety"]:active{transform:none}}
