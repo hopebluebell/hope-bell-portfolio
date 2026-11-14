@@ -191,9 +191,9 @@ body[data-page="404"] main{background-color:var(--paper);background-image:radial
 /* Small directional cues on links, with a gentle lift for Telegram buttons. */
 .link-arrow{display:inline-block;--arrow-shift:5px;transition:transform 240ms cubic-bezier(.2,.7,.2,1)}
 .link-arrow--back{--arrow-shift:-5px}
-.pill[href="https://t.me/hopesanxiety"]{transition:transform 240ms cubic-bezier(.2,.7,.2,1),background-color 200ms ease,color 200ms ease}
-@media(hover:hover){a:hover .link-arrow{transform:translateX(var(--arrow-shift))}.pill[href="https://t.me/hopesanxiety"]:hover{transform:translateY(-4px)}}
+:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]){transition:transform 240ms cubic-bezier(.2,.7,.2,1),background-color 200ms ease,color 200ms ease}
+@media(hover:hover){a:hover .link-arrow{transform:translateX(var(--arrow-shift))}:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):hover{transform:translateY(-4px)}}
 a:focus-visible .link-arrow{transform:translateX(var(--arrow-shift))}
-.pill[href="https://t.me/hopesanxiety"]:focus-visible{transform:translateY(-4px)}
-.pill[href="https://t.me/hopesanxiety"]:active{transform:translateY(-2px)}
-@media(prefers-reduced-motion:reduce){.link-arrow,.pill[href="https://t.me/hopesanxiety"]{transition:none}a:hover .link-arrow,a:focus-visible .link-arrow,.pill[href="https://t.me/hopesanxiety"]:hover,.pill[href="https://t.me/hopesanxiety"]:focus-visible,.pill[href="https://t.me/hopesanxiety"]:active{transform:none}}
+:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):focus-visible{transform:translateY(-4px)}
+:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):active{transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){.link-arrow,:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]){transition:none}a:hover .link-arrow,a:focus-visible .link-arrow,:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):hover,:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):focus-visible,:is(.pill[href="https://t.me/hopesanxiety"],.home-hero .pill[href="#selected"]):active{transform:none}}
