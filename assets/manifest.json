@@ -23,94 +23,94 @@
     ]
   },
   "after-event-phone": {
-    "originalBytes": 379346,
+    "originalBytes": 1727236,
     "variants": [
       {
-        "src": "after-event-phone-480.webp",
+        "src": "after-event-phone-r2-480.webp",
         "width": 480,
-        "height": 956,
-        "bytes": 30440
+        "height": 943,
+        "bytes": 37492
       },
       {
-        "src": "after-event-phone-960.webp",
+        "src": "after-event-phone-r2-960.webp",
         "width": 960,
-        "height": 1911,
-        "bytes": 73958
+        "height": 1886,
+        "bytes": 96382
       },
       {
-        "src": "after-event-phone-1120.webp",
+        "src": "after-event-phone-r2-1120.webp",
         "width": 1120,
-        "height": 2230,
-        "bytes": 91636
+        "height": 2200,
+        "bytes": 120216
       }
     ]
   },
   "after-home-phone": {
-    "originalBytes": 444275,
+    "originalBytes": 1827390,
     "variants": [
       {
-        "src": "after-home-phone-480.webp",
+        "src": "after-home-phone-r2-480.webp",
         "width": 480,
-        "height": 964,
-        "bytes": 41672
+        "height": 943,
+        "bytes": 50272
       },
       {
-        "src": "after-home-phone-960.webp",
+        "src": "after-home-phone-r2-960.webp",
         "width": 960,
-        "height": 1929,
-        "bytes": 101796
+        "height": 1886,
+        "bytes": 124166
       },
       {
-        "src": "after-home-phone-1120.webp",
+        "src": "after-home-phone-r2-1120.webp",
         "width": 1120,
-        "height": 2250,
-        "bytes": 125798
+        "height": 2200,
+        "bytes": 151162
       }
     ]
   },
   "after-map-phone": {
-    "originalBytes": 445613,
+    "originalBytes": 2176274,
     "variants": [
       {
-        "src": "after-map-phone-480.webp",
+        "src": "after-map-phone-r2-480.webp",
         "width": 480,
-        "height": 964,
-        "bytes": 39042
+        "height": 943,
+        "bytes": 50896
       },
       {
-        "src": "after-map-phone-960.webp",
+        "src": "after-map-phone-r2-960.webp",
         "width": 960,
-        "height": 1929,
-        "bytes": 95242
+        "height": 1886,
+        "bytes": 124220
       },
       {
-        "src": "after-map-phone-1120.webp",
+        "src": "after-map-phone-r2-1120.webp",
         "width": 1120,
-        "height": 2250,
-        "bytes": 117264
+        "height": 2200,
+        "bytes": 153946
       }
     ]
   },
   "after-plan-phone": {
-    "originalBytes": 310777,
+    "originalBytes": 1001519,
     "variants": [
       {
-        "src": "after-plan-phone-480.webp",
+        "src": "after-plan-phone-r2-480.webp",
         "width": 480,
-        "height": 938,
-        "bytes": 29888
+        "height": 940,
+        "bytes": 37640
       },
       {
-        "src": "after-plan-phone-960.webp",
+        "src": "after-plan-phone-r2-960.webp",
         "width": 960,
-        "height": 1875,
-        "bytes": 70918
+        "height": 1881,
+        "bytes": 96664
       },
       {
-        "src": "after-plan-phone-1070.webp",
+        "src": "after-plan-phone-r2-1070.webp",
         "width": 1070,
-        "height": 2090,
-        "bytes": 81298
+        "height": 2096,
+        "bytes": 112468
       }
     ]
   },
@@ -132,25 +132,25 @@
     ]
   },
   "after-route-phone": {
-    "originalBytes": 369306,
+    "originalBytes": 1983015,
     "variants": [
       {
-        "src": "after-route-phone-480.webp",
+        "src": "after-route-phone-r2-480.webp",
         "width": 480,
-        "height": 910,
-        "bytes": 32636
+        "height": 941,
+        "bytes": 46032
       },
       {
-        "src": "after-route-phone-960.webp",
+        "src": "after-route-phone-r2-960.webp",
         "width": 960,
-        "height": 1819,
-        "bytes": 83122
+        "height": 1882,
+        "bytes": 122624
       },
       {
-        "src": "after-route-phone-1050.webp",
+        "src": "after-route-phone-r2-1050.webp",
         "width": 1050,
-        "height": 1990,
-        "bytes": 94216
+        "height": 2058,
+        "bytes": 139428
       }
     ]
   },
@@ -172,25 +172,25 @@
     ]
   },
   "after-steps-phones": {
-    "originalBytes": 342908,
+    "originalBytes": 1507075,
     "variants": [
       {
-        "src": "after-steps-phones-480.webp",
+        "src": "after-steps-phones-r2-480.webp",
         "width": 480,
-        "height": 440,
-        "bytes": 22836
+        "height": 394,
+        "bytes": 21100
       },
       {
-        "src": "after-steps-phones-960.webp",
+        "src": "after-steps-phones-r2-960.webp",
         "width": 960,
-        "height": 880,
-        "bytes": 59730
+        "height": 787,
+        "bytes": 52428
       },
       {
-        "src": "after-steps-phones-1600.webp",
+        "src": "after-steps-phones-r2-1600.webp",
         "width": 1600,
-        "height": 1467,
-        "bytes": 110580
+        "height": 1312,
+        "bytes": 91810
       }
     ]
   },
