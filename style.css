@@ -160,3 +160,11 @@ body[data-page="404"] main{background-color:var(--paper);background-image:radial
 @media(prefers-reduced-motion:reduce){.case-next>a::after{transition:none}}
 
 .case-next>a.text-link:hover{text-decoration:none}
+
+/* Reveal the home page project link underline without shifting its text. */
+.all-projects{position:relative;display:table;margin-left:auto;padding-bottom:5px;text-decoration:none}
+.all-projects:hover{text-decoration:none}
+.all-projects::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform 240ms ease}
+@media(hover:hover){.all-projects:hover::after{transform:scaleX(1)}}
+.all-projects:focus-visible::after{transform:scaleX(1)}
+@media(prefers-reduced-motion:reduce){.all-projects::after{transition:none}}
